@@ -22,8 +22,7 @@ O projeto é composto pelos seguintes arquivos:
 ## Tecnologias Utilizadas
 
 - **Linguagem de Programação**: Python
-- **Framework Web**: Flask (opcional, para criar uma aplicação web)
-- **Banco de Dados**: (opcional, para persistir os dados das reservas)
+- **Framework**: HTML e CSS
 
 ## Como Executar o Projeto
 
@@ -39,8 +38,7 @@ O projeto é composto pelos seguintes arquivos:
 
 ## Autores
 
-- [Seu Nome]
-- [Seu Email]
+- Gabriel Camargo [GitHub](https://github.com/gabrielcamargogsilva) - gabriel.cgsilva.senai@gmail.com
 
 ## Licença
 
