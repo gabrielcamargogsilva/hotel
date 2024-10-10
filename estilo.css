@@ -1,0 +1,223 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 1% 1%;
+    color: #fff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+header .logo img {
+    height: 60px;
+    margin-left: 60%;
+    
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 30px;
+    height: 30%;
+}
+
+header nav ul li a {
+    color: #0075AA;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.main-section {
+    background-color: #D9E9FC;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(imgs/img10.png);
+    height: 100vh;
+    padding-top: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main-section h2 {
+    font-size: 2.5rem;
+    color: #f2f2f2;
+}
+
+.main-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f2f2f2;
+}
+
+.rooms-section {
+    padding: 15px 20px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.rooms-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.rooms-section p {
+    margin-bottom: 30px;
+}
+
+.room-types {
+    display: flex;
+    justify-content: space-around;
+}
+
+.room-type {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.room-type h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.room-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 40%;
+    margin-right: 55% ;
+    
+}
+
+.room-images img {
+    width: 350px;
+    height: 250px;
+    background-color: #ccc;
+}
+
+.location-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(imgs/fundo.webp);
+    height: 100vh;
+    padding-top: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.location-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.localizacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.localizacao img {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 40px;
+    margin-top: 7%;
+}
+.texto {
+    display: flex;
+    flex-direction: column;
+    padding: 0 35px;
+}
+
+.reservation-section {
+    padding: 130px 20px;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+.reservation-section h3 {
+    margin-bottom: 8%;
+    font-size: 35px;
+}
+
+.reservation-section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.reservation-section form label {
+    text-align: left;
+}
+
+.reservation-section form input,
+.reservation-section form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation-section form button {
+    background-color: #0075AA;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    grid-column: span 2;
+    margin-top: 30px;
+}
+
+.contact-info {
+    margin-top: 10px;
+    margin-bottom: -5%;
+}
+
+footer {
+    background-color: #0075AA;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+}
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+}

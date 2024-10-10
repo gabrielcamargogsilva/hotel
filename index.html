@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrela do Mar Hotel</title>
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Fonte do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <img src="imgs/logo.png" alt="Logo Estrela do Mar Hotel">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quartos">Quartos</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Principal -->
+    <section class="main-section" id="home">
+        <h2>ESTRELA DO MAR HOTEL</h2>
+        <p>A paz e o charme do litoral</p>
+    </section>
+
+    <!-- Seção de Quartos -->
+    <section class="rooms-section" id="quartos">
+        <h3>Quartos</h3>
+        <p>No Estrela do Mar Hotel valorizamos o conforto, a elegância e a qualidade em todos os aspectos de sua estadia.</p>
+        <div class="room-types">
+            <div class="room-type">
+                <h4>Suíte individual ou dupla</h4>
+                <div class="room-images">
+                    <img src="imgs/img2.png" alt="Quarto">
+                    <img src="imgs/img17.jpg" alt="Quarto">
+                    <img src="imgs/img19.jfif" alt="Quarto">
+                    <img src="imgs/img18.jpg" alt="Quarto">
+                </div>
+            </div>
+            <div class="room-type">
+                <h4>Quarto família</h4>
+                <div class="room-images">
+                    <img src="imgs/img16.jpeg" alt="Quarto">
+                    <img src="imgs/img3.png" alt="Quarto">
+                    <img src="imgs/img4.png" alt="Quarto">
+                    <img src="imgs/img20.jpg" alt="Quarto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Localização -->
+    <section class="location-section" id="localizacao">
+        <div class="localizacao">
+            <img style="margin-bottom: 50px;" src="imgs/mapa.png">
+            <div class="texto">
+                <h3>Localização</h3>
+                <p>Estamos localizados numa das melhores regiões do litoral fluminense, na charmosa cidade de Búzios. Nosso hotel está na Avenida Atlântica, proporcionando fácil acesso às belas praias, repleta de lojas, restaurantes e bares. Venha desfrutar de dias ensolarados em praias paradisíacas e noites animadas na cidade. Esperamos por você no Estrela do Mar Hotel! 
+                    <p></br>
+                    <P>Avenida Atlântica, 10 - Centro - Búzios/RJ</p></br>
+                </div>
+        </div>
+    </section>
+
+    <!-- Seção de Reservas -->
+    <section class="reservation-section" id="reservas">
+        <h3>Reservas</h3>
+        <form>
+            <label for="check-in">Check-in:</label>
+            <input type="date" id="check-in" name="check-in">
+            
+            <label for="check-out">Check-out:</label>
+            <input type="date" id="check-out" name="check-out">
+            
+            <label for="adults">Adultos:</label>
+            <input type="number" id="adults" name="adults" min="1" max="10">
+            
+            <label for="children">Crianças:</label>
+            <input type="number" id="children" name="children" min="0" max="10">
+            
+            <button type="submit">Orçamento</button>
+        </form>
+        <div class="contact-info">
+            <p><strong>Canal de atendimento:</strong></p>
+            <p>📞 (21) 99157-8540</p>
+            <p>📧 reservas@estreladomar.com.br</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Estrela do Mar Hotel. Todos os direitos reservados.</p>
+        <div class="social-media">
+            <a href="#"><img src="imgs/whatsapp.png" alt="whatsapp"></a>
+            <a href="#"><img src="imgs/instagram.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
